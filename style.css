@@ -5,7 +5,12 @@
 }
 body{ 
     max-width: 1220px;
-    border-left: solid 1px;
+   
+   
+}
+.hr_header_style{
+  
+    border: solid 3px cadetblue;
 }
 a{
    text-decoration: none;
@@ -27,6 +32,7 @@ ul.nav_ul{
     margin: 0;
 }
 .logo_style{
+    width: 100px;
     margin-left: 0;
     padding: 5px 20px 5px 20px;
 }
@@ -36,9 +42,16 @@ ul.nav_ul{
 
 
 .nav_links{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pushster', cursive;
+    font-size: 20px;
     list-style: none;
     display: inline-block;
     padding: 5px 20px 5px 20px;
+}
+ul .nav_links a:hover{
+    color: cornsilk;
+    transition: 0.5s;
 
 }
 
