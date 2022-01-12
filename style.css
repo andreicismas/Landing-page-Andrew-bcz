@@ -3,43 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* body style */
+
 body{ 
-    max-width: 1220px;
-   
-   
+    max-width: 1600px;
+    background-color:lightgray;
+    
 }
+
+/* header end nav style */
+
+.nav_style{
+    
+}
+
 .hr_header_style{
-  
     border: solid 3px cadetblue;
 }
+
 a{
    text-decoration: none;
-   color: darkolivegreen;
+   color: rgb(21, 22, 19);
 }
-.nav_style{
-    background-color: darkorange;
-   
 
-}
+
 .nav_container{
     padding: 10px;
     display: flex;
     justify-content: flex-end;
-    
 }
 
 ul.nav_ul{
     margin: 0;
 }
+
 .logo_style{
     width: 100px;
     margin-left: 0;
     padding: 5px 20px 5px 20px;
 }
+
 .icone_mie{
    padding: 10px; 
 }
-
 
 .nav_links{
     font-family: 'Montserrat', sans-serif;
@@ -49,9 +55,55 @@ ul.nav_ul{
     display: inline-block;
     padding: 5px 20px 5px 20px;
 }
+
 ul .nav_links a:hover{
-    color: cornsilk;
+    color: rgb(21, 196, 212);
     transition: 0.5s;
 
+}
+/* end header end nav style */
+  
+
+/* start main style */
+
+main{
+    text-align: center;
+    background-image: url("fotos/lighting-home.jpg");
+    
+
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.title_container{
+    width: 80%;
+}
+.title_style{
+    color: white;
+    font-family:'pushster';
+    font-weight: 500;
+    font-size: 80px;
+}
+
+
+.title_container p{
+    font-size: 25px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.52);
+    
+    border-radius: 10px 40px 10px 60px;
+}
+.map iframe{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* UTILITY CLASS */
+
+.p_10{
+    padding: 10px;
 }
 
